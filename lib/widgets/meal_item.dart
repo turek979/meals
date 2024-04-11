@@ -21,9 +21,7 @@ class MealItem extends StatelessWidget {
 
   void _selectedMeal(BuildContext context, meal) {
     Navigator.push(context, MaterialPageRoute(builder: (ctx) {
-      return MealScreen(
-        title: meal.title, meal: meal,
-      );
+      return MealScreen(meal: meal);
     }));
   }
 
