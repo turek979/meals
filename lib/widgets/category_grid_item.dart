@@ -19,8 +19,8 @@ class CategoryGridItem extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              category.color.withOpacity(0.55),
-              category.color.withOpacity(0.9),
+              category.color.withValues(alpha: 0.55),
+              category.color.withValues(alpha: 0.9),
             ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
